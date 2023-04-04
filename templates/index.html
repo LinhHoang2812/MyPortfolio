@@ -175,7 +175,7 @@
             
         </div>    
     </div>
-    <button type="submit"  class="btn btn-primary mybtn" onclick="window.open('LinhCV_stage.pdf', '_blank', 'fullscreen=yes'); return false;">Resume</button>
+    <a class="btn btn-primary mybtn" href="{{ url_for('download',filename = 'LinhCV_stage.pdf') }}">Resume</a>
 
 </div>
 

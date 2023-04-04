@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 import smtplib
 import os
 
@@ -26,7 +26,9 @@ def home():
     return render_template("index.html")
 
 
-
+@app.route('/download/<filename>')
+def download(filename):
+    return send_from_directory("static/files",filename, as_attachment=True)
 
 
 if __name__ == "__main__":
