@@ -1,0 +1,248 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+h1,h2,h3,h4 {
+    font-family: "Montserrat", sans-serif;
+    color: #675D50;
+
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #675D50;
+    margin:0;
+    padding: 0;
+
+}
+
+/* style container fluid */
+.container-fluid {
+    padding: 40px 20px;
+    
+}
+/* style navbar */
+.navbar {
+    padding: 1.5em  2rem;
+    background-color: #E4DCCF;
+    
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right:10px;
+    
+
+  }
+
+.nav-link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #675D50;
+
+    
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #F7F5EB;
+}
+
+
+
+
+/* style title */
+.title {
+    text-align: center;
+    padding: 5rem 4rem 4rem;
+    background-color: #F7F5EB;
+}
+
+.intro h1{
+    padding-top: 15px;
+    font-size: 4rem;
+    font-weight:bolder;
+    
+
+}
+
+.intro h2{
+    padding-top: 5px;
+    font-size: 2rem;
+    font-weight:normal;
+    
+}
+
+
+/* style about-me */
+
+.about-content {
+    padding: 5% 15%;
+    text-align: center;
+    
+}
+
+.row {
+    padding-bottom: 3%;
+}
+
+.about-title {
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+
+.about-title h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.about-text {
+    text-align: left !important;
+}
+
+.myicon {
+    padding-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.skillicon {
+    padding: 10px 10px 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+#about {
+    background-color: #F7F5EB;
+}
+
+/* style contact */
+
+.contact-content {
+    padding: 5% 15%;
+}
+
+.contact-title {
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+
+.contact-title h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.mybtn {
+    background-color: #675D50;
+    border-color:#675D50 ;
+}
+
+.mybtn:hover {
+    background-color: #F7F1E5;
+    border-color: #F7F1E5;
+    color: #675D50;
+}
+
+.mybtn:active {
+    background-color: #675D50 !important;
+    border-color:#675D50 !important ;
+}
+
+.alert {
+    color: red;
+}
+
+/* style footer */
+.footer-icon {
+    padding: 1.5% 3%;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.footer-content p {
+    padding-top: 20px;
+    font-size: 1.25rem;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 1% 5;
+}
+.footer-text h4 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#footer{
+    background-color: #F7F5EB;
+
+}
+.copyright {
+    background-color: #E4DCCF;
+    text-align: center;
+    margin-bottom: -18px;
+    padding:1.5em  2rem;
+}
+
+/* style portfolio */
+#portfolio {
+    padding-top: 5%;
+}
+
+.portfolio-title h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    display: inline;
+
+}
+.portfolio-title {
+    padding-left: 50px;
+    padding-bottom: 3%;
+}
+
+
+.card {
+    width: 30rem;
+    height: 25rem;
+    padding: 3% 3%;
+}
+
+#portfolio .row {
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+   
+}
+.project-col {
+    text-align: center;
+    padding: 0 3% 5% 0;
+}
+
+.card-title {
+    font-weight: bold;
+    color :#675D50;
+
+}
+
+.card-img-top {
+    width: 80%;
+    
+}
+
+.card-body small {
+    font-size:x-small;
+    line-height: 0%;
+
+}
