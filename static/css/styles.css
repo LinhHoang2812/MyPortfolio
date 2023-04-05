@@ -1,15 +1,9 @@
-html {
-  scroll-behavior: smooth;
-}
-
-
 
 h1,h2,h3,h4 {
     font-family: "Montserrat", sans-serif;
     color: #675D50;
 
 }
-
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -18,23 +12,23 @@ body {
     padding: 0;
 
 }
+.container-fluid{
+    padding: 5% 3%;
+ }
 
-/* style container fluid */
-.container-fluid {
-    padding: 40px 20px;
-    
-}
+
+
 /* style navbar */
 .navbar {
     padding: 1.5em  2rem;
     background-color: #E4DCCF;
-    
+
 }
 
 .nav-item {
     padding-left: 10px;
     padding-right:10px;
-    
+
 
   }
 
@@ -44,7 +38,7 @@ body {
     font-weight: 900;
     color: #675D50;
 
-    
+
 }
 
 
@@ -57,17 +51,17 @@ body {
 
 
 /* style title */
-.title {
+#header .container-fluid{
     text-align: center;
-    padding: 5rem 4rem 4rem;
     background-color: #F7F5EB;
+    padding: 100px 20px 20px 20px !important;
 }
 
 .intro h1{
     padding-top: 15px;
     font-size: 4rem;
     font-weight:bolder;
-    
+
 
 }
 
@@ -75,7 +69,7 @@ body {
     padding-top: 5px;
     font-size: 2rem;
     font-weight:normal;
-    
+
 }
 
 
@@ -84,7 +78,7 @@ body {
 .about-content {
     padding: 5% 15%;
     text-align: center;
-    
+
 }
 
 .row {
@@ -129,7 +123,9 @@ body {
 .contact-content {
     padding: 5% 15%;
 }
-
+.contact-content .mybtn {
+    margin-left: 0;
+}
 .contact-title {
     text-align: center;
     padding-bottom: 5%;
@@ -145,6 +141,7 @@ body {
 .mybtn {
     background-color: #675D50;
     border-color:#675D50 ;
+    margin: 10px;
 }
 
 .mybtn:hover {
@@ -156,10 +153,6 @@ body {
 .mybtn:active {
     background-color: #675D50 !important;
     border-color:#675D50 !important ;
-}
-
-.alert {
-    color: red;
 }
 
 /* style footer */
@@ -195,10 +188,8 @@ body {
 }
 
 /* style portfolio */
-
-
 #portfolio {
-    padding: 100px;
+    padding: 50px;
 }
 
 #portfolio .container-fluid {
@@ -217,23 +208,27 @@ body {
 }
 
 
+
+
 .card {
-    height: 28rem;
+    /* height: 28rem; */
     padding: 3% 3%;
 }
-@media (max-width: 990px){
+
+@media (min-width: 1000px) and (max-width: 1900px){
     .card {
-      height: 33rem;
+      height: 30rem;
 
     }
 }
 
-@media (max-width: 720px){
+@media (min-width: 1900px){
     .card {
-      height: 26rem;
+      height: 38rem;
 
     }
 }
+
 
 
 
@@ -256,3 +251,4 @@ body {
     line-height: 0%;
 
 }
+
