@@ -195,8 +195,14 @@ body {
 }
 
 /* style portfolio */
+
+
 #portfolio {
-    padding-top: 5%;
+    padding: 100px;
+}
+
+#portfolio .container-fluid {
+    text-align: center;
 }
 
 .portfolio-title h3 {
@@ -207,28 +213,36 @@ body {
 
 }
 .portfolio-title {
-    padding-left: 50px;
     padding-bottom: 3%;
 }
 
 
 .card {
-    width: 30rem;
-    height: 25rem;
+    height: 28rem;
     padding: 3% 3%;
 }
+@media (max-width: 990px){
+    .card {
+      height: 33rem;
 
-#portfolio .row {
-
-    padding-left: 50px;
-    padding-right: 50px;
-
-   
+    }
 }
+
+@media (max-width: 720px){
+    .card {
+      height: 26rem;
+
+    }
+}
+
+
+
 .project-col {
     text-align: center;
-    padding: 0 3% 5% 0;
+    padding: 3% 3%
 }
+
+
 
 .card-title {
     font-weight: bold;
@@ -236,10 +250,6 @@ body {
 
 }
 
-.card-img-top {
-    width: 80%;
-    
-}
 
 .card-body small {
     font-size:x-small;
