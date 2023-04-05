@@ -215,20 +215,20 @@ body {
     padding: 3% 3%;
 }
 
-@media (min-width: 1000px) and (max-width: 1900px){
+/*@media (min-width: 1000px) and (max-width: 1366px){
     .card {
       height: 30rem;
 
     }
 }
 
-@media (min-width: 1900px){
+@media (min-width: 1366px){
     .card {
-      height: 38rem;
+      height: 36rem;
 
     }
 }
-
+*/
 
 
 
