@@ -135,12 +135,12 @@
             <div class="col-lg-6 project-col">
 
                 <div class="card shadow h-100">
-                    <img class="card-img-top mx-auto" src="static/assets/image/js.png" alt="Card image cap">
+                    <img class="card-img-top mx-auto" src="static/assets/image/delizdays.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Javascript project</h5>
-                        <p class="card-text">My Javascript project is coming soon.</p>
-                        <a href="#" class="btn btn-primary mybtn">Site Preview</a>
-                        <a href="#" class="btn btn-primary mybtn">Source Code</a>
+                        <h5 class="card-title">Delicious Days</h5>
+                        <p class="card-text">A responsive restaurant website built with HTML, CSS and vanilla Javascript</p>
+                        <a href="https://linhhoang2812.github.io/Deliz-Days/" class="btn btn-primary mybtn">Site Preview</a>
+                        <a href="https://github.com/LinhHoang2812/Deliz-Days" class="btn btn-primary mybtn">Source Code</a>
                     </div>
                 </div>
 
@@ -215,8 +215,9 @@
             <label class="form-label" for="message" >Message</label>
             <textarea name="message"  class="form-control" id="message" cols="30"  rows="10" style="height: 10rem"></textarea> 
 
-        </div> 
-        <a href="#contact" class="btn btn-primary mybtn" onclick="submit()">Submit</a>
+        </div>
+        <input type="submit" class="btn btn-primary mybtn" value="Send">
+<!--        <a href="#contact" class="btn btn-primary mybtn" >Submit</a>-->
 
     </form>
     </div>
@@ -249,11 +250,13 @@
         <small>© Copyright 2023 Linh Hoang</small>
     </div>
 <script>
-            function submit() {
-                document.getElementById("contactform").submit();
+    const form= document.queryselector('#contactform')
+    form.addEventListener('submit',function(){
 
-            }
-        </script>
+        form.submit();
+
+    })
+</script>
   
 </body>
 </html>
